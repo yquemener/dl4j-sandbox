@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <properties>
+        <!--<dl4j.version>1.0.0-SNAPSHOT</dl4j.version> -->
         <dl4j.version>1.0.0-alpha</dl4j.version>
         <nd4j.version>${dl4j.version}</nd4j.version>
         <nd4j.artifactId>nd4j-native</nd4j.artifactId>
@@ -49,6 +50,18 @@
             <artifactId>nd4j-native</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
+        <!--
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-api</artifactId>
+            <version>${dl4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-buffer</artifactId>
+            <version>${dl4j.version}</version>
+        </dependency>
+        -->
     </dependencies>
 
 </project>
